@@ -1,0 +1,89 @@
+body {
+  display: block;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+
+.top{
+  position: relative;
+  z-index: 30;
+  height: 40px;
+  font-size: 12px;
+  color: #424242;
+  background: #333;
+}
+
+.container {
+  width: 1226px;
+  height: 40px;
+  *zoom: 1;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.topbar-pc1{
+  float: left;
+  line-height: 40px;
+  display: block;
+}
+
+
+#topbar-pc2{
+  position: relative;
+  display: inline-block;
+  float: right;
+  line-height: 40px;
+}
+
+.topbar-pc3{
+  position: relative;
+  float: left;
+  margin-left: 150px;
+  line-height: 90px;
+}
+
+.top a{
+  color: rgb(176, 176, 176);
+  display: inline-block;
+  text-decoration: none;
+}
+
+.top a:hover{
+  color: white;
+}
+
+
+#gouwuche{
+  position: relative;
+  float: right;
+  margin-right: 180px;
+  display: inline-block;
+  height: 40px;
+  margin-left: 30px;
+}
+
+#xiaomi{
+  position: relative;
+  float: left;
+  display: inline-block;
+  top: 25px;
+}
+
+li{
+  display:inline;
+  padding:5px 10px 5px 10px;
+}
+
+.topbar-pc3 a{
+  color: #333;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.topbar-pc3 a:hover{
+  color: orangered;
+}
